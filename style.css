@@ -1,0 +1,377 @@
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  background-color: rgb(233, 212, 212);
+}
+html{scroll-behavior: smooth;}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    cursor:pointer;
+    position: sticky;
+    top:0%;
+    
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo img{
+    width:33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.nav-list{
+    width:70%;
+     display:flex;
+    align-items: center;
+    }
+.nav-list li{
+    list-style: none;
+    
+    padding:25px 30px;
+    }
+.nav-list li a{
+text-decoration: none;
+color:aliceblue;
+font-size: 20px;
+font-family: sans-serif;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey;
+    }
+.rightNav{
+    width:30%;
+    text-align: right;
+    padding-right:20px;
+}
+#search{
+    padding:5px;
+    border:2px solid grey;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    }
+.background{
+    background:rgba(179, 42, 42, 0.7) url('../img/an.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    opacity: 0.9;
+}
+.box-main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin:auto;
+    padding-top: 150px;
+}
+.firstSection{
+    height:100vh;
+}
+.secondHalf img{
+    width:200px;
+    height:200px;
+}
+.firstHalf{
+    width:80%;
+    display:flex;
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width:30%;
+}
+
+.secondHalf img{
+    width:200px;
+    border:4px solid white;
+    border-radius: 150px;
+    margin:auto;
+    display:block;
+    margin-top: 10%;
+}
+.text-big{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.text-small{
+    font-size: 18px;
+    padding:0px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    padding: 8px 20px;
+    padding-top: 10px;
+    margin-left:50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    background: none;
+    cursor:pointer;
+    color:white;
+
+}
+.btn2{
+  padding: 8px 20px;
+  padding-top: 10px;
+  margin-left:50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  background: none;
+  cursor:pointer;
+  color:white;
+
+}
+.btn:hover{
+  background-color: rgb(229, 146, 146);
+}
+.btn2:hover{
+  background-color: rgb(229, 146, 146);
+}
+.btn-sm{
+    padding:6px 10px;
+    vertical-align: middle;
+    margin-left:12px;
+}
+.secRight{
+    height: 400px;
+    max-width:80%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.section{
+
+    max-width:80%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    
+    justify-content:space-evenly;
+}
+.thumbnail img{
+    height:250px;
+    width:350px;
+    padding:10px;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding:0px 30px;
+    
+}
+.contact{
+    background-color: rgb(219, 208, 208);
+    height:700px;
+
+}
+.text-center{
+    text-align: center;
+    font-size: 30px;
+    padding:25px;
+    font-family: sans-serif;
+}
+.form{
+    max-width:62%;
+    margin: 34px auto;
+}
+.btn-dark{
+    border:2px solid black;
+    color:black;
+
+}
+.form-input{
+    width:100%;
+    padding:5px 3px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:13px 0px;
+}
+.foot{
+    text-align: center;
+    font-size: 15px;
+    padding:25px;
+    font-family: sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+      }
+      @media only screen and (max-width:1140px){
+        .nav-list{
+          flex-direction: column;
+
+        }
+        .navbar{
+          flex-direction: column;
+          height:400px;
+          transition: all 0.7s ease-out;
+        }
+        .rightNav{
+          text-align: center;}
+        .search{
+          width:100%;
+
+          }
+          .burger{
+            position:absolute;
+            cursor:pointer;
+            right:5%;
+            top:15px;
+
+          }
+        .line{
+          width:35px;
+          background-color: aliceblue;
+          height:4px;
+          margin:4px 4px;
+        }
+        .burger{
+          display:block;
+        }
+        .v-class-resp{
+          opacity: 0;
+        }
+        .h-nav-resp{
+             height:100px;
+        }
+        .box-main{
+          flex-direction: column-reverse;
+          width:100%;
+        }
+      .section{
+        flex-direction: column-reverse;
+
+      }
+      .paras{
+        padding:0px;
+      }
+    }
